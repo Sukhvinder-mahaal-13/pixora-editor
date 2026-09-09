@@ -1,54 +1,113 @@
-:root{
-    /* bg colors  */
-    --bg-primary-color:rgb(17,17,17);
-     --bg-secondary-color:rgb(34,34,34);
-     --bg-active-color:rgb(233,233,233);
-     --bg-danger-color:rgb(200,50,50);
-     --bg-success-color:rgb(32, 148, 32);
 
-/* text colors */
- --text-primary-color:rgb(255,255,255);
- --text-secondary-color:rgb(200,200,200);
- --text-tertiary-color:rgb(150,150,150);
---text-active-color:rgb(24,24,24);
+:root {
 
-    /* paddings */
-  --padding-sm:0.5rem;
-  --padding-md:1rem;
-  --padding-lg:1.5rem;
-  --padding-xl:2rem;
-  --padding-2xl:3rem;
+    /* =================================================
+       BACKGROUND COLORS
+    ================================================= */
+
+    --bg-primary-color: rgb(17, 17, 17);
+
+    --bg-secondary-color: rgb(34, 34, 34);
+
+    --bg-active-color: rgb(233, 233, 233);
+
+    --bg-danger-color: rgb(200, 50, 50);
+
+    --bg-success-color: rgb(32, 148, 32);
 
 
-   /* margin */
---margin-sm:0.5rem;
---margin-md:1rem;
---margin-lg:1.5rem;
---margin-xl:2rem;
---margin-2xl:3rem;
+    /* =================================================
+       ACCENT
+    ================================================= */
+
+    --accent-color: #ff4d4d;
 
 
+    /* =================================================
+       TEXT COLORS
+    ================================================= */
 
-   /* gutter */
-  --gutter-sm:0.5rem;
-  --gutter-md:1rem;
-  --gutter-lg:1.5rem;
-  --gutter-xl:2rem;
-  --gutter-2xl:3rem;
+    --text-primary-color: rgb(255, 255, 255);
 
-  /* font sizes */
-  --font-size-sm:0.875rem;
-  --font-size-md:1rem;
-  --font-size-lg:1.125rem;
-  --font-size-xl:1.25rem;
-  --font-size-2xl:1.5rem;
+    --text-secondary-color: rgb(200, 200, 200);
+
+    --text-tertiary-color: rgb(150, 150, 150);
+
+    --text-active-color: rgb(24, 24, 24);
 
 
-  /*  border radius */
- --border-radius-sm:0.2rem;
- --border-radius-md:0.25rem;
- --border-radius-lg:0.3rem;
- --border-radius-xl:0.4rem;
- --border-radius-2xl:0.5rem;
+    /* =================================================
+       PADDING
+    ================================================= */
 
+    --padding-sm: 0.5rem;
+
+    --padding-md: 1rem;
+
+    --padding-lg: 1.5rem;
+
+    --padding-xl: 2rem;
+
+    --padding-2xl: 3rem;
+
+
+    /* =================================================
+       MARGIN
+    ================================================= */
+
+    --margin-sm: 0.5rem;
+
+    --margin-md: 1rem;
+
+    --margin-lg: 1.5rem;
+
+    --margin-xl: 2rem;
+
+    --margin-2xl: 3rem;
+
+
+    /* =================================================
+       GUTTER / GAP
+    ================================================= */
+
+    --gutter-sm: 0.5rem;
+
+    --gutter-md: 1rem;
+
+    --gutter-lg: 1.5rem;
+
+    --gutter-xl: 2rem;
+
+    --gutter-2xl: 3rem;
+
+
+    /* =================================================
+       FONT SIZES
+    ================================================= */
+
+    --font-size-sm: 0.875rem;
+
+    --font-size-md: 1rem;
+
+    --font-size-lg: 1.125rem;
+
+    --font-size-xl: 1.25rem;
+
+    --font-size-2xl: 1.5rem;
+
+
+    /* =================================================
+       BORDER RADIUS
+    ================================================= */
+
+    --border-radius-sm: 0.25rem;
+
+    --border-radius-md: 0.5rem;
+
+    --border-radius-lg: 0.75rem;
+
+    --border-radius-xl: 1rem;
+
+    --border-radius-2xl: 1.25rem;
 }
+
